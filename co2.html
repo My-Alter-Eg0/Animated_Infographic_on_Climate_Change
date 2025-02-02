@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO2 Levels</title>
+    <link rel="icon" href="tech-X-logo.jpg" type="image-logo">
+    <link rel="stylesheet" href="styles.css"> 
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url(https://www.co2meter.com/cdn/shop/articles/What_is_Carbon_Dioxide_CO2_1024x1024.jpg?v=1688157874)no-repeat center center fixed;
+            background-color: #f0f0f0;
+            background-size: cover;
+            color: #333;
+            padding: 20px;
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        h1 {
+            color: #000000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.303);
+            border-radius: 30px;
+            padding: 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+        }
+        .chart {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #f9faf7;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        /* .back-button:hover {
+            background: #7379f8;
+        } */
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1><b>CO2 Levels</b></h1>
+        <p>Atmospheric CO2 levels have increased by over 40% since the pre-industrial era, reaching levels not seen in millions of years. This rise is primarily due to fossil fuel combustion and deforestation.</p>
+        
+        <p>Increased CO2 levels contribute to the greenhouse effect, leading to global warming and climate change.</p>
+        <p>To illustrate the trend, here’s a graph shows atmospheric CO2 levels measured by NOAA at Mauna Loa Observatory, Hawaii, since 1958.</p>
+        <div class="chart">
+            <img src="https://www.e-education.psu.edu/earth103/sites/www.e-education.psu.edu.earth103/files/module05/Earth103_Mauna%20Loa.png" width="500"  alt="Line Graph CO2 Levels">
+        </div>
+        <a href="Tech-X.html" class="back-button">Back to Home</a>
+    </div>
+</body>
+</html>
